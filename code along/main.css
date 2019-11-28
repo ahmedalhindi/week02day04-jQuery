@@ -1,0 +1,50 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #008CBA;
+    padding: 16px;
+}
+
+/* .block {
+    display: block;
+    width: 10%;
+    border: none;
+    border-radius: 15%;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 40px;
+    cursor: pointer;
+    color: azure;
+    text-align: center;
+  } */
+
+ .block:nth-child(n) { /* optional to learn. can use clases instead */
+    display: block;
+    width: 10%;
+    border: none;
+    border-radius: 10%;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 45px;
+    cursor: pointer;
+    color: azure;
+    text-align: center;
+  }
+
+.Instructors{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .Instructors > div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 40px;
+    background: rgba(0,0,0,0.1);
+  }
